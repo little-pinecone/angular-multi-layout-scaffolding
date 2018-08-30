@@ -8,6 +8,9 @@ import { GuestFooterComponent } from './layout/guest/guest-footer/guest-footer.c
 import { GuestLayoutComponent } from './layout/guest/guest-layout/guest-layout.component';
 import { LandingPageComponent } from './pages/landing-page/landing-page.component';
 import { AppRoutingModule } from './/app-routing.module';
+import { AuthorisedSideNavComponent } from './layout/authorised/authorised-side-nav/authorised-side-nav.component';
+import { AuthorisedLayoutComponent } from './layout/authorised/authorised-layout/authorised-layout.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { AppRoutingModule } from './/app-routing.module';
     GuestTopNavComponent,
     GuestFooterComponent,
     GuestLayoutComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    AuthorisedSideNavComponent,
+    AuthorisedLayoutComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
