@@ -22,4 +22,8 @@ describe('AuthorisedSideNavComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  it('should render menu in the top navigation', async(() => {
+    const compiled = fixture.debugElement.nativeElement;
+    expect(compiled.querySelector('nav').textContent).toContain('LinkLink');
+  }));
 });

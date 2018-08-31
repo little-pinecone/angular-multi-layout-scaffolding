@@ -22,4 +22,8 @@ describe('GuestFooterComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  it('should render brand name in a footer tag', async(() => {
+    const compiled = fixture.debugElement.nativeElement;
+    expect(compiled.querySelector('footer').textContent).toContain('keep_growing');
+  }));
 });
