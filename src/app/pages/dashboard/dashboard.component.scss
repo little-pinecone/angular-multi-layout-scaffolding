@@ -1,0 +1,10 @@
+.dashboard-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  margin: 0 -15px;
+  >.card {
+    margin: 15px;
+  }
+}

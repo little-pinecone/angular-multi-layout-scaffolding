@@ -1,0 +1,44 @@
+:host {
+  background: #343a40;
+}
+
+#sidebar {
+  width: 200px;
+  min-height: 100vh;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 0;
+}
+
+#sidebar ul {
+  width: 100%;
+}
+
+#sidebar ul li {
+  list-style: none;
+}
+
+#sidebar ul li a {
+  padding: 15px;
+  display: block;
+  width: 100%;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+.side-nav-header {
+  display: block;
+  padding: 15px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%;
+}
+
+hr {
+  border-top: 1px solid #666;
+  margin-top: 0;
+}
