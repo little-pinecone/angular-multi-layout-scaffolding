@@ -1,8 +1,4 @@
-<nav id="sidebar" class="navbar-dark bg-dark">
-  <div class="side-nav-header">
-    keep_growing
-  </div>
-  <hr>
+<nav id="sidebar" class="navbar-dark bg-dark" [ngClass]="{'hidden': sideNavService.hideSideNav }">
   <ul class="navbar-nav">
     <li class="nav-item active">
       <a class="nav-link" href="#">Home page</a>

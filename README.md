@@ -9,7 +9,7 @@ This application serves two separate layouts - one provided on a landing page vi
 All views are complemented with Bootstrap classes.
 
 ![landing page screenshot](readme-images/landing_page.png "Landing page")
-![dashboard page screenshot](readme-images/dashboard.png "Dashboard page")
+![dashboard page screenshot](readme-images/dashboard_with_custom_sidenav.png "Dashboard page")
 
 ## Getting Started
 

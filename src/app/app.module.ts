@@ -11,6 +11,8 @@ import { AppRoutingModule } from './/app-routing.module';
 import { AuthorisedSideNavComponent } from './layout/authorised/authorised-side-nav/authorised-side-nav.component';
 import { AuthorisedLayoutComponent } from './layout/authorised/authorised-layout/authorised-layout.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { AuthorisedTopNavComponent } from './layout/authorised/authorised-top-nav/authorised-top-nav.component';
+import { AuthorisedSideNavTogglerComponent } from './layout/authorised/authorised-side-nav-toggler/authorised-side-nav-toggler.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
     LandingPageComponent,
     AuthorisedSideNavComponent,
     AuthorisedLayoutComponent,
-    DashboardComponent
+    DashboardComponent,
+    AuthorisedTopNavComponent,
+    AuthorisedSideNavTogglerComponent
   ],
   imports: [
     BrowserModule,
