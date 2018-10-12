@@ -1,6 +1,10 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { AuthorisedTopNavComponent } from './authorised-top-nav.component';
+import { Component } from '@angular/core';
+
+@Component({selector: 'app-authorised-side-nav-toggler', template: ''})
+class AuthorisedSideNavTogglerComponent {}
 
 describe('AuthorisedTopNavComponent', () => {
   let component: AuthorisedTopNavComponent;
@@ -8,7 +12,10 @@ describe('AuthorisedTopNavComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AuthorisedTopNavComponent ]
+      declarations: [
+        AuthorisedTopNavComponent,
+        AuthorisedSideNavTogglerComponent
+       ]
     })
     .compileComponents();
   }));

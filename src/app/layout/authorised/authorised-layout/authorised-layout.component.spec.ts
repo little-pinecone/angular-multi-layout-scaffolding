@@ -7,6 +7,9 @@ import { Component } from '@angular/core';
 @Component({selector: 'app-authorised-side-nav', template: ''})
 class AuthorisedSideNavComponent {}
 
+@Component({selector: 'app-authorised-top-nav', template: ''})
+class AuthorisedTopNavComponent {}
+
 @Component({selector: 'app-page-content', template: ''})
 class PageContentComponent { }
 
@@ -19,6 +22,7 @@ describe('AuthorisedLayoutComponent', () => {
       declarations: [
         AuthorisedLayoutComponent,
         AuthorisedSideNavComponent,
+        AuthorisedTopNavComponent,
         PageContentComponent
       ]
     })
