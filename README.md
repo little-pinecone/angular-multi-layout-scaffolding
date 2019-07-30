@@ -32,7 +32,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 ## Built With
 
-* [Angular 6](https://angular.io/)
+* [Angular 8](https://angular.io/)
 * [Bootstrap 4](https://getbootstrap.com/)
 
 ## License
