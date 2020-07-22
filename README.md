@@ -37,4 +37,4 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 ## License
 
-This project is licensed under the MIT License - see the [license details](https://opensource.org/licenses/MIT).
+This project is licensed under the Unlicense - see the [license details](https://choosealicense.com/licenses/unlicense/).
